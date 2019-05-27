@@ -1,6 +1,6 @@
 ---
 title: authlogic failed_login_count 
-date: 2019-04-27
+date: 2019-05-27
 ---
 
 Magic Columns `failed_login_count` 有点类似 rails的 `created_at` `updated_at`
