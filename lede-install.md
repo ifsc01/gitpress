@@ -17,6 +17,8 @@ mac或者linux直接用dd写入磁盘就行
 
 下载解压
 
+使用dd 写到硬盘
+
 ```
 sudo dd if=./openwrt-koolshare-mod-v2.31-r10822-50aa0525d1-x86-64-combined-squashfs.img   of=/dev/disk2
 ```
