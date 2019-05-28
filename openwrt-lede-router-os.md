@@ -5,6 +5,13 @@ date: 2019-05-26
 
 把一台x86的闲置台式机安装了lede路由系统做软路由
 
+终于把去年买好的网卡用上了!!!
+
+![](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1559063834.png)
+
+
+![](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1559063771.jpg)
+
 ## openwrt 安装记录
 
 下载地址 
