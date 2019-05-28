@@ -18,7 +18,8 @@ date: 2019-05-26
 
 http://firmware.koolshare.cn/LEDE_X64_fw867/
 
-![telegram-cloud-photo-size-5-6292077946080438431-x](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1558985503.png)
+![](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1558985503.png)
+
 combined和 uefi-gpt 两种，前者支持MBR的分区表和BIOS系统，后者支持GPT 分区表和EFI系统
 
 我用的 combined 的 固件
@@ -42,14 +43,12 @@ sudo dd if=./openwrt-koolshare-mod-v2.31-r10822-50aa0525d1-x86-64-combined-squas
 
 ## openwrt 配置 Portainer 管理 docker记录
 
+LEDE酷软里安装docker 插件, 一个简单的管理docker的管理工具, 不太好用, 看了下可以尝试 `Portainer` 来管理
+
 Portainer 概述
 * [GitHub] https://github.com/portainer/portainer
 * [Doc] https://portainer.readthedocs.io/en/stable/
 
-
-使用的路由器系统是LEDE
-
-在酷软里安装docker
 
 ![](https://cos.ap-beijing.myqcloud.com/data-1252438752/1558935109.png)
 
