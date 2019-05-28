@@ -14,6 +14,7 @@ http://firmware.koolshare.cn/LEDE_X64_fw867/
 ![telegram-cloud-photo-size-5-6292077946080438431-x](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1558985503.png)
 combined和 uefi-gpt 两种，前者支持MBR的分区表和BIOS系统，后者支持GPT 分区表和EFI系统
 
+我用的 combined 的 固件
 
 mac或者linux直接用dd写入磁盘就行
 
@@ -24,6 +25,12 @@ mac或者linux直接用dd写入磁盘就行
 ```
 sudo dd if=./openwrt-koolshare-mod-v2.31-r10822-50aa0525d1-x86-64-combined-squashfs.img   of=/dev/disk2
 ```
+
+## 配置网络tips
+
+外网不能访问, 需要配置下防火墙
+
+![](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1559063483.png)
  
 
 ## openwrt 配置 Portainer 管理 docker记录
