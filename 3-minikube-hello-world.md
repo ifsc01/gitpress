@@ -50,7 +50,6 @@ minikube --vm-driver=vmwarefusion --loglevel 2 start
 
 部署 一个简单的http server `echoserver` 
 
-![](https://data-1252438752.cos.ap-beijing.myqcloud.com/2019/05/30/15591583695942.jpg)
 
 ```bash
 $ kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080
@@ -61,16 +60,13 @@ deployment.apps/hello-minikube created
 
 选项`--type=NodePort`指定服务的类型
 
-```bash
+```
 kubectl expose deployment hello-minikube --type=NodePort
 ```
-
-![](https://data-1252438752.cos.ap-beijing.myqcloud.com/2019/05/30/15591583561654.jpg)
 
 hello-minikube Pod现已启动，但必须等到Pod启动才能通过公开的服务访问它
 查看状态 `kubectl get pod`
 
-![](https://data-1252438752.cos.ap-beijing.myqcloud.com/2019/05/30/15591585372597.jpg)
 
 获取公开的服务的URL以查看服务详细信息：
 
