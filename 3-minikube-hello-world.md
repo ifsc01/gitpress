@@ -87,3 +87,19 @@ hello-minikube Pod现已启动，但必须等到Pod启动才能通过公开的�
 
 
 
+## dashboard 
+
+```bash
+minikube dashboard
+```
+
+![](https://cos.ap-beijing.myqcloud.com/dropshare-1252438752/1559160896.png)
+
+
+## 删除service
+
+```
+ kubectl delete services nginx-minikube
+ kubectl delete deployment nginx-minikube
+ ```
+ 
