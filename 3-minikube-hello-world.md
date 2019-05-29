@@ -17,24 +17,25 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos
 
 brew 安装
 
-```
+```bash
 brew install kubernetes-cli
 ```
 
 ## 安装 minikube
-```
+
+```bash
 brew cask install minikube
 ```
 
 启动 minikube 创建集群
 
-```
+```bash
 minikube start
 ```
 
 使用 vmwarefusion 
 
-```
+```bash
 minikube --vm-driver=vmwarefusion --loglevel 2 start
 ```
 
@@ -51,7 +52,7 @@ minikube --vm-driver=vmwarefusion --loglevel 2 start
 
 ![](https://data-1252438752.cos.ap-beijing.myqcloud.com/2019/05/30/15591583695942.jpg)
 
-```
+```bash
 $ kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080
 deployment.apps/hello-minikube created
 ```
@@ -60,7 +61,7 @@ deployment.apps/hello-minikube created
 
 选项`--type=NodePort`指定服务的类型
 
-```
+```bash
 kubectl expose deployment hello-minikube --type=NodePort
 ```
 
