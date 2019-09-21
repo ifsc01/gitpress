@@ -21,3 +21,21 @@ data-action `click->hello#greet`
 * click 表示事件
 * hello 表示controller标识符
 * greet 表示要调用的action方法
+
+## Controllers
+
+Controllers是Stimulus应用程序的基本组织单位
+
+```js
+import { Controller } from "stimulus"
+
+export default class extends Controller {
+  // …
+}
+```
+
+Properties
+
+* `this.application`  应用实例
+* `this.element`  controller关联的html元素
+
