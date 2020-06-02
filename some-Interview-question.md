@@ -20,7 +20,7 @@ date: 2020-6-2
 * csp并发模型
   * goroutine & channel
   * csp vs actor
-* golang 互斥锁 读写锁
+* golang 互斥锁 读写锁 WaitGroup
 * GPM 调度模型
   - [Go 为什么这么“快”](https://zhuanlan.zhihu.com/p/111346689)
   - [深入golang runtime的调度](https://zboya.github.io/post/go_scheduler/)
