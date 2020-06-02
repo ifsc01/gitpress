@@ -12,6 +12,7 @@ date: 2020-6-2
 * golang gc 机制
   * https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-garbage-collector/
   * https://segmentfault.com/a/1190000018161588
+
 * defer panic recover 
 * make & new 的区别
   * channel map slice
@@ -21,14 +22,20 @@ date: 2020-6-2
   * goroutine & channel
   * csp vs actor
 * golang 互斥锁 读写锁 WaitGroup
-* GPM 调度模型
+
+### GPM 调度模型
   - [Go 为什么这么“快”](https://zhuanlan.zhihu.com/p/111346689)
   - [深入golang runtime的调度](https://zboya.github.io/post/go_scheduler/)
   - [Go 语言调度器与 Goroutine 实现原理 | Go 语言设计与实现](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/)
 
-* sync.Map 并发安全的map 优化
-  * https://github.com/orcaman/concurrent-map
-* net/http
+### sync.Map 并发安全的map & 优化
+
+* repo https://github.com/orcaman/concurrent-map
+* 与单纯使用原生map和互斥锁的方案相比，使用sync.Map可以显著地减少锁的争用。sync.Map本身虽然也用到了锁，但是，它其实在尽可能地避免使用锁
+* 并发安全字典如何做到尽量避免使用锁？ https://time.geekbang.org/column/article/42800
+
+### net/http
+
   * http.Handle
 * web framework
   * https://github.com/gin-gonic/gin
