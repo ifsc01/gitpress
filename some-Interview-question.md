@@ -10,6 +10,7 @@ date: 2020-6-2
 ## golang 
 
 * golang gc 机制
+  * https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-garbage-collector/
 * defer panic recover 
 * make & new 的区别
   * channel map slice
