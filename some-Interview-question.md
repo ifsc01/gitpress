@@ -6,6 +6,7 @@ date: 2020-6-2
 ## 基础
 
 * tcp/ip 
+* http 协议
 
 ## golang 
 
@@ -44,6 +45,8 @@ date: 2020-6-2
 ## redis mysql 
 
 * 索引原理和优化
+  * [如何使用 EXPLAIN 查看 SQL 执行计划？](https://time.geekbang.org/column/article/126169)
+
 * b+ 数
   * 索引的原理：我们为什么用B+树来做索引？
 * Mongodb 为啥用 B树
