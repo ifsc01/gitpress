@@ -46,7 +46,7 @@ date: 2020-6-2
   * https://github.com/gin-gonic/gin
   * https://github.com/kataras/iris
 
-## redis mysql 
+## mysql 
 
 * mysql 锁机制
   * 行锁(什么时候行锁?)
@@ -67,9 +67,18 @@ date: 2020-6-2
 * b+ 数
   * 索引的原理：我们为什么用B+树来做索引？
 * Mongodb 为啥用 B树
+
+## redis
+
+* redis 分布式锁
+* redis 事务
 * redis 数据结构, 不同数据结构的实现
   * zset 跳表
 * redis rdb & aof
+
+## docker & k8s
+
+* docker 原理 
 
 ## 必读文章
 
